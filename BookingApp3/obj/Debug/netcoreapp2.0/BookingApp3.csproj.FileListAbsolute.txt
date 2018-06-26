@@ -9,3 +9,15 @@ C:\Users\User\source\repos\BookingApp3\BookingApp3\bin\Debug\netcoreapp2.0\Booki
 C:\Users\User\source\repos\BookingApp3\BookingApp3\obj\Debug\netcoreapp2.0\BookingApp3.dll
 C:\Users\User\source\repos\BookingApp3\BookingApp3\obj\Debug\netcoreapp2.0\BookingApp3.pdb
 C:\Users\User\source\repos\BookingApp3\BookingApp3\obj\Debug\netcoreapp2.0\BookingApp3.csprojResolveAssemblyReference.cache
+C:\Users\User\source\repos\BookingApp3\BookingAppWebApi\BookingApp3\bin\Debug\netcoreapp2.0\BookingApp3.deps.json
+C:\Users\User\source\repos\BookingApp3\BookingAppWebApi\BookingApp3\bin\Debug\netcoreapp2.0\BookingApp3.runtimeconfig.json
+C:\Users\User\source\repos\BookingApp3\BookingAppWebApi\BookingApp3\bin\Debug\netcoreapp2.0\BookingApp3.runtimeconfig.dev.json
+C:\Users\User\source\repos\BookingApp3\BookingAppWebApi\BookingApp3\bin\Debug\netcoreapp2.0\BookingApp3.dll
+C:\Users\User\source\repos\BookingApp3\BookingAppWebApi\BookingApp3\bin\Debug\netcoreapp2.0\BookingApp3.pdb
+C:\Users\User\source\repos\BookingApp3\BookingAppWebApi\BookingApp3\obj\Debug\netcoreapp2.0\BookingApp3.csprojResolveAssemblyReference.cache
+C:\Users\User\source\repos\BookingApp3\BookingAppWebApi\BookingApp3\obj\Debug\netcoreapp2.0\BookingApp3.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\BookingApp3\BookingAppWebApi\BookingApp3\obj\Debug\netcoreapp2.0\BookingApp3.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\BookingApp3\BookingAppWebApi\BookingApp3\obj\Debug\netcoreapp2.0\BookingApp3.AssemblyInfo.cs
+C:\Users\User\source\repos\BookingApp3\BookingAppWebApi\BookingApp3\obj\Debug\netcoreapp2.0\BookingApp3.dll
+C:\Users\User\source\repos\BookingApp3\BookingAppWebApi\BookingApp3\obj\Debug\netcoreapp2.0\BookingApp3.pdb
+C:\Users\User\source\repos\BookingApp3\BookingAppWebApi\BookingApp3\bin\Debug\netcoreapp2.0\nlog.config

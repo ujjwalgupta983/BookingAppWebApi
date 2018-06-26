@@ -12,7 +12,6 @@ using BookingApp3.Models;
 using Microsoft.EntityFrameworkCore;
 using BookingApp3.Auth;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-
 using Microsoft.IdentityModel.Tokens;
 using BookingApp3.Helpers;
 using System.Text;
@@ -101,7 +100,7 @@ namespace BookingApp3
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             if (env.IsDevelopment())
             {
@@ -109,6 +108,7 @@ namespace BookingApp3
             }
 
             
+
             //app.UseHttpsRedirection();
             app.UseMvc();
             app.UseCors("AllowCors");

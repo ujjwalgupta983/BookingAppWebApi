@@ -1,0 +1,6 @@
+2018-06-26 13:12:19.3469 Info Message Template Auto Format enabled
+2018-06-26 13:12:19.3920 Info Loading assembly: NLog.Web.AspNetCore
+2018-06-26 13:12:20.0540 Info Adding target File Target[allfile]
+2018-06-26 13:12:20.2502 Info Adding target File Target[ownFile-web]
+2018-06-26 13:12:20.2836 Info Configured from an XML element in C:\Users\User\source\repos\BookingApp3\BookingAppWebApi\BookingApp3\bin\Debug\netcoreapp2.0\nlog.config...
+2018-06-26 13:12:20.3507 Info Found 45 configuration items

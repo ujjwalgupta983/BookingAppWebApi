@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "1ea4b37cee45b0c2b5ef838381539f3e8269a5c2"
+    "signature": "214b71f8aeb6968cdec43b003f3e9ca5b086ceb9"
   },
   "compilationOptions": {
     "defines": [
@@ -36,6 +36,8 @@
           "MySql.Data": "8.0.11",
           "MySql.Data.EntityFrameworkCore": "8.0.11",
           "MySql.Data.EntityFrameworkCore.Design": "8.0.11",
+          "NLog": "4.5.6",
+          "NLog.Web.AspNetCore": "4.5.4",
           "Pomelo.EntityFrameworkCore.MySql": "2.1.0-rc1-final",
           "Pomelo.EntityFrameworkCore.MySql.Design": "1.1.2",
           "System.IdentityModel.Tokens.Jwt": "5.2.4"
@@ -3160,6 +3162,50 @@
         },
         "compile": {
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
+        }
+      },
+      "NLog/4.5.6": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.5.6.7874"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/NLog.dll": {}
+        }
+      },
+      "NLog.Extensions.Logging/1.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "2.1.1",
+          "NLog": "4.5.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NLog.Extensions.Logging.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.2.652"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/NLog.Extensions.Logging.dll": {}
+        }
+      },
+      "NLog.Web.AspNetCore/4.5.4": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.0.0",
+          "Microsoft.AspNetCore.Http": "2.0.0",
+          "Microsoft.AspNetCore.Http.Extensions": "2.1.1",
+          "Microsoft.AspNetCore.Routing.Abstractions": "2.0.0",
+          "NLog.Extensions.Logging": "1.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NLog.Web.AspNetCore.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.5.4.832"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/NLog.Web.AspNetCore.dll": {}
         }
       },
       "NuGet.Frameworks/4.0.0": {
@@ -6485,6 +6531,27 @@
       "sha512": "sha512-5PYT/IqQ+UK31AmZiSS102R6EsTo+LGTSI8bp7WAUqDKaF4wHXD8U9u4WxTI1vc64tYi++8p3dk3WWNqPFgldw==",
       "path": "newtonsoft.json.bson/1.0.1",
       "hashPath": "newtonsoft.json.bson.1.0.1.nupkg.sha512"
+    },
+    "NLog/4.5.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FZIdeH92NTu6ePm+QbLT9pyd5vY9B+GYX8S2bh6ZxJC+XSTZDhZ6EHWxDzyBIEjtIb+nSBJfIgdMuQNQEYMqbQ==",
+      "path": "nlog/4.5.6",
+      "hashPath": "nlog.4.5.6.nupkg.sha512"
+    },
+    "NLog.Extensions.Logging/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i5iGN3TUEGtRMO1m0xjDwFugVZz4FITJ/JNMyC4HtzBLipUJSApXiTaCR8fWkTkkyqb5fYkvgLMV4XBmwxxEqQ==",
+      "path": "nlog.extensions.logging/1.0.2",
+      "hashPath": "nlog.extensions.logging.1.0.2.nupkg.sha512"
+    },
+    "NLog.Web.AspNetCore/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dTCjiiUAccDD2XRTg3L74bamYmjFozaA/mXEeV08bOZ0bIez1jM0pXfQTb2awFsiibrgDuCf3JJQ/xf2OJB4fA==",
+      "path": "nlog.web.aspnetcore/4.5.4",
+      "hashPath": "nlog.web.aspnetcore.4.5.4.nupkg.sha512"
     },
     "NuGet.Frameworks/4.0.0": {
       "type": "package",
